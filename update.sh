@@ -12,7 +12,7 @@ git credential approve <<EOF
 protocol=https
 host=github.com
 username=yashmrsawant
-password=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
+password=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
 EOF
 
 # Update the repository with the provided credentials
