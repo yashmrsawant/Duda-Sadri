@@ -4,7 +4,7 @@
 
 # Provide the username and password for authentication
 #username = "yashmrsawant"
-#password = "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"
+#password = "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"
 
 git config credential.helper store
 git config --global credential.username yashmrsawant
@@ -12,7 +12,7 @@ git credential approve <<EOF
 protocol=https
 host=github.com
 username=yashmrsawant
-password=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
+password=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
 EOF
 
 # Update the repository with the provided credentials
@@ -26,7 +26,7 @@ git credential reject <<EOF
 protocol=https
 host=github.com
 username=yashmrsawant
-password=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
+password=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
 EOF
 
 echo "Repository update complete!"
