@@ -3,8 +3,8 @@
 
 
 # Provide the username and password for authentication
-username = 'yashmrsawant@gmail.com'
-password = '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'
+username = "yashmrsawant"
+password = "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"
 
 git config credential.helper store
 git config --global credential.username $username
